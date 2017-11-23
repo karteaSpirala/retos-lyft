@@ -1,0 +1,102 @@
+/* Esta sección pertenece al header */
+#main-header {
+  background-color: #281340;
+  height: 114px;
+  width: 100%;
+	color: white;
+	left: 0;
+	top: 0;
+	position: fixed;
+}
+
+#logo-header {
+  height: 40px;
+  float: left;
+  margin-top: 40px;
+  margin-left: 40px;
+  width: 60px;
+}
+
+/* Comienza el código del 1° bloque  */
+
+#block-1 > div > img {
+  border: 0px;
+  height: 700px;
+  width: 1341px;
+  padding: 0px;
+  margin-left: 0px;
+}
+
+#square {
+  background-color: white;
+  display: block;
+  float: right;
+  height: 200px;
+  width: 200px;
+}
+
+/* Comienza el código del 2° bloque  */
+
+#block-2 {
+  background: linear-gradient(#70268B, #2C1E66);
+  margin: 0px;
+  height: 700px;
+  width: 100%;
+}
+
+#block-2 > img {
+  float: right;
+  height: 400px;
+  margin-top: 70px;
+  margin-right: 70px;
+  width: 300px;
+}
+
+#block-2 > article {
+  border: 0px;
+  color: white;
+  display: block;
+  font-family: Montserrat, serif;
+
+}
+
+/* Los siguientes selectores de nav, son para la barra de menú  */
+
+nav {
+	float: right;
+}
+
+nav > ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 20px;
+}
+
+nav > ul > li {
+	display: inline-block;
+	line-height: 80px;
+}
+
+nav > ul > li > a {
+  color: white;
+	display: block;
+  font-family: Montserrat, serif;
+	padding: 0 10px;
+	text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+	color: #FF00BF;
+}
+
+.button-login {
+  background-color: none;
+  border: 1px solid white;
+  border-radius: 10%;
+  padding: 0px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
